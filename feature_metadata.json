@@ -1,0 +1,81 @@
+{
+  "FEATURES": [
+    "child_age_months",
+    "child_sex",
+    "breastfeeding",
+    "mother_age",
+    "mother_height_cm",
+    "mother_education",
+    "father_occupation",
+    "father_education",
+    "wealth_index",
+    "residence_type",
+    "child_weight_kg",
+    "child_height_cm"
+  ],
+  "NUMERIC_FEATURES": [
+    "child_weight_kg",
+    "child_height_cm",
+    "child_age_months",
+    "mother_age",
+    "mother_height_cm"
+  ],
+  "CATEGORICAL_FEATURES": [
+    "child_sex",
+    "breastfeeding",
+    "mother_education",
+    "father_occupation",
+    "father_education",
+    "wealth_index",
+    "residence_type"
+  ],
+  "CLASS_NAMES": [
+    "Acute Malnourished",
+    "Normal",
+    "Stunted"
+  ],
+  "CLASS_MAPPING": {
+    "Acute Malnourished": 0,
+    "Normal": 1,
+    "Stunted": 2
+  },
+  "CATEGORICAL_OPTIONS": {
+    "child_sex": [
+      "Female",
+      "Male"
+    ],
+    "breastfeeding": [
+      "No",
+      "Yes"
+    ],
+    "mother_education": [
+      "Higher",
+      "No Education",
+      "Primary",
+      "Secondary"
+    ],
+    "father_occupation": [
+      "Agricultural",
+      "Manual",
+      "Non-Manual",
+      "Unemployed"
+    ],
+    "father_education": [
+      "Higher",
+      "No Education",
+      "Primary",
+      "Secondary"
+    ],
+    "wealth_index": [
+      "Middle",
+      "Poorer",
+      "Poorest",
+      "Richer",
+      "Richest"
+    ],
+    "residence_type": [
+      "Rural",
+      "Urban"
+    ]
+  }
+}

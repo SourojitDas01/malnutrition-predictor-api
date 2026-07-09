@@ -2,7 +2,7 @@ gradio==5.9.1
 scikit-learn==1.6.1
 lightgbm==4.6.0
 catboost==1.2.10
-shap==0.52.0
+shap==0.51.0
 pandas==2.2.3
 numpy==2.0.2
 matplotlib==3.9.2
